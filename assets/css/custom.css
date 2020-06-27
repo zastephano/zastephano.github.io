@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap');
+
+#main > *{
+    border: unset;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+div#main {
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+span.profile_photo img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+div#intro div {
+    font-size: 40px;
+    margin-bottom: 35px;
+    margin-top: -25px;
+    letter-spacing: 3.4px;
+    font-weight: 400;
+}
+.lastname{
+    color: #002F4D;
+}
+div#intro {
+    margin-top: -100px;
+}
+div#footer{
+    width: 100%;
+}
+
+/* Custom changes */
+.title_pres {
+    padding-left: 0 !important;
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 36px !important;
+    padding-bottom: 22px !important;
+}
+tr.title_table {
+    background: #002F4D !important;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+}
+tr:not(.title_table) {
+    background-color: #EFEFEF !important;
+    border: none;
+}
+table.generale td {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+td.tdheading {
+    font-weight: 700;
+    font-size: 18px;
+    color: #00304d;
+}
+tr.core_table td {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+tr.core_table td:not(.tdheading) {
+    font-weight: 400;
+}
+table.generale.personnalite {
+    margin-top: 55px !important;
+}
+p.job {
+    margin-bottom: -12px;
+}
+p.company {
+    font-weight: 500;
+    font-size: 18px;
+    color: #ccc;
+    margin-bottom: -12px;
+}
+p.duration {
+    font-size: 16px;
+    font-weight: 600;
+    color: #7B8482;
+    margin-bottom: 0;
+}
+tr.core_table.experiences p {
+    font-weight: 400;
+    color: #7C8483;
+    margin-bottom: 0;
+}
+a{
+    text-decoration: none;
+}
+.outils{
+    color: #782447;
+}
+table.generale.experience_section {
+    margin-bottom: 50px !important;
+}
+.compet tr.core_table td {
+    width: 33%;
+}
+.compet td.tdheading {
+    font-weight: 500;
+}
+/* Formations */
+.formations {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+.licence{
+    margin-bottom: 35px;
+}
+.licence, .isgi {
+    padding: 35px 35px;
+    background-color: #002F4D;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+.licence .job, .isgi .job {
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 8px;
+}
+.compet, .formations{
+    padding-top: 0 !important;
+}
+.compet{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+a.cv {
+    padding-left: 0 !important;
+    margin-top: -28px !important;
+    display: block;
+}
+a.cv button:hover{
+    color: #fff !important;
+    background-color: #002F4D;
+}
+a.cv button {
+    font-size: 17px;
+}
+/* contact */
+td.tdheading.core {
+    font-weight: 500;
+}
+.contact .core_table {
+    padding-bottom: 15px;
+}
+.contact .core_table td{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+div#copyright {
+    color: #fff;
+}
+a{
+    border-bottom-color: transparent;
+}
+td.tdheading.corebutton a button{
+    font-size: 14px;
+}
+td.tdheading.corebutton a button:hover {
+    color: #fff !important;
+    background: #00304d;
+    font-size: 14px;
+}
